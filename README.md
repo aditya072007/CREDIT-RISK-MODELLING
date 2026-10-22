@@ -74,67 +74,7 @@ Finally, the results are satisfying and the project objective was achieved. The 
 # 7. Web app and next steps
 Once I built a model that solves the business problem by identifying 80% of the bad risk customers, I developed a Flask web app such that we can get predictions for any customer by giving the input features information. For the next steps, I will be focused on deploying this app in a cloud like AWS (I already defined a file containing Elastic Beanstalk configuration, .ebextensions/config.py). Anyway, I describe in the next topic how you can run this project on your local machine.
 
-# 8. Run this project on your local machine
-Prerequisites:
 
-Before getting started, make sure you have the following installed on your machine:
-- Python 3.11.4
-- pip (Python package manager)
-- Git (Version control tool)
-
-Once you have this installed, open a terminal on your local machine and run the following commands:
-
-1. Clone the repository:
-<pre>
-https://github.com/allmeidaapedro/Credit-Risk-Prediction-German-Bank.git
-</pre>
-
-2. Navigate to the cloned repository directory:
-<pre>
-cd Credit-Risk-Prediction-German-Bank
-</pre>
-
-3. Create a virtual environment:
-<pre>
-python -m venv venv
-</pre>
-
-4. Activate the Virtual Environment:
-
-Activate the virtual environment used to isolate the project dependencies.
-<pre>
-source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
-</pre>
-
-5. Install Dependencies:
-
-Use pip to install the required dependencies listed in the requirements.txt file.
-<pre>
-pip install -r requirements.txt
-</pre>
-
-6. Run the Application:
-<pre>
-python application.py
-</pre>
-
-7. Access the Project Locally:
-
-After running successfully, you can access the project locally. Open a web browser and navigate to http://127.0.0.1:5000/
-
-Then, go to the prediction page, select the input features values and click on submit. The prediction will appear on the right side.
-
-7. Shutdown the Application:
-
-To stop the application, you can typically press Ctrl+C in the terminal where the application is running.
-
-8. Deactivate the Virtual Environment:
-
-When you're done with the project, deactivate the virtual environment.
-
-<pre>
-deactivate
-</pre>
 
 # 9. Dataset link
 The dataset was collected from kaggle and it belongs to UCI machine learning repository.
